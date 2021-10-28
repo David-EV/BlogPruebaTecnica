@@ -8,11 +8,11 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <h1>Prueba Tecnica</h1>
+    <p>Esta prueba busca evaluar las capacidades tecnicas del aplicante a desarrollador.</p>
+    <p>Front End.</p>
     <StaticImage
-      src="../images/gatsby-astronaut.png"
+      src="https://mexico.unir.net/wp-content/uploads/2019/09/dia-programador-ingenieria-unir-mexico.jpg"
       width={300}
       quality={95}
       formats={["auto", "webp", "avif"]}
@@ -20,10 +20,10 @@ const IndexPage = () => (
       style={{ marginBottom: `1.45rem` }}
     />
     <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
-      <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
-      <Link to="/using-dsg">Go to "Using DSG"</Link>
+      <Link to="/blog/">Ir al Blog</Link> <br />
+      <Link to="/using-typescript/">Objetivo de la Prueba</Link> <br />
+
+
     </p>
   </Layout>
 )
